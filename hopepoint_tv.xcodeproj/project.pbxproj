@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292D0FDB2874587500E28918 /* New_York_billing.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 292D0FDA2874587500E28918 /* New_York_billing.gpx */; };
 		39854A151CB57BD500D19C94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39854A141CB57BD500D19C94 /* main.m */; };
 		39854A181CB57BD500D19C94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39854A171CB57BD500D19C94 /* AppDelegate.m */; };
 		39854A1B1CB57BD500D19C94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39854A1A1CB57BD500D19C94 /* ViewController.m */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		292D0FDA2874587500E28918 /* New_York_billing.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = New_York_billing.gpx; sourceTree = "<group>"; };
 		39854A101CB57BD500D19C94 /* hopepoint_tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hopepoint_tv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39854A141CB57BD500D19C94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		39854A161CB57BD500D19C94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,16 +91,17 @@
 		39854A131CB57BD500D19C94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B4127981CB6BA9400F93359 /* Two_Forks.gpx */,
 				5B4127991CB6BA9400F93359 /* Bhopal.gpx */,
-				5B41279A1CB6BA9400F93359 /* LaPiedad.gpx */,
-				5B41279B1CB6BA9400F93359 /* Toronto.gpx */,
-				39854A271CB57BDC00D19C94 /* Cupertino.gpx */,
 				39854A281CB57BDC00D19C94 /* Chicago.gpx */,
+				39854A271CB57BDC00D19C94 /* Cupertino.gpx */,
+				5B41279A1CB6BA9400F93359 /* LaPiedad.gpx */,
 				39854A291CB57BDC00D19C94 /* London.gpx */,
+				39854A141CB57BD500D19C94 /* main.m */,
+				292D0FDA2874587500E28918 /* New_York_billing.gpx */,
 				39854A2A1CB57BDC00D19C94 /* New_York.gpx */,
 				39854A2B1CB57BDC00D19C94 /* Point_Hope.gpx */,
-				39854A141CB57BD500D19C94 /* main.m */,
+				5B41279B1CB6BA9400F93359 /* Toronto.gpx */,
+				5B4127981CB6BA9400F93359 /* Two_Forks.gpx */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -134,7 +137,7 @@
 				TargetAttributes = {
 					39854A0F1CB57BD500D19C94 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = Q4TPH26Q49;
+						DevelopmentTeam = JB52MRGKHA;
 					};
 				};
 			};
@@ -143,6 +146,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -161,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292D0FDB2874587500E28918 /* New_York_billing.gpx in Resources */,
 				5B41279C1CB6BA9400F93359 /* Two_Forks.gpx in Resources */,
 				39854A301CB57BDC00D19C94 /* Point_Hope.gpx in Resources */,
 				5B41279D1CB6BA9400F93359 /* Bhopal.gpx in Resources */,
@@ -241,6 +246,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -279,6 +285,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -293,9 +300,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JB52MRGKHA;
 				INFOPLIST_FILE = hopepoint_tv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.9magnets.hopepoint-tv";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbtnhp.hopepoint-tv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -308,9 +316,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JB52MRGKHA;
 				INFOPLIST_FILE = hopepoint_tv/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.9magnets.hopepoint-tv";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbtnhp.hopepoint-tv";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
